@@ -4,7 +4,7 @@ RUN mkdir /app
 
 WORKDIR /app
 
-RUN git clone https://cdm-project.com/TPD94/CDRM-Project.git .
+RUN git clone https://github.com/TPD94/CDRM-Project.git .
 RUN pip install -r requirements.txt
 
 EXPOSE 5000
