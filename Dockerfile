@@ -5,4 +5,4 @@ RUN git clone https://github.com/TPD94/CDRM-Project.git .
 RUN pip install -r requirements.txt
 
 EXPOSE 5000
-CMD [ "/usr/local/bin/python3", "-m", "flask", "--app", "main.py", "run", "--host", "0.0.0.0" ]
+CMD [ "/usr/local/bin/flask", "run" ]
